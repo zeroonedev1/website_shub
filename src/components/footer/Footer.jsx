@@ -3,7 +3,20 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <a href="" className='footer__logo'>Shubham Dholu</a>
+
+      <ul className='links'>
+        <li><a href="#">Home</a></li>
+        <li><a href="#abour">About</a></li>
+        <li><a href="#xp">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div className="footer__note">
+      <small>&copy; use everything form here, I really dont mind.</small>
+      </div>
+    </footer>
   )
 }
 
