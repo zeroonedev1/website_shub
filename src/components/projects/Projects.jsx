@@ -1,11 +1,6 @@
 import React from 'react'
 import './projects.css'
 import IMG1 from '../../assets/card.png'
-import IMG2 from '../../assets/card.png'
-import IMG3 from '../../assets/card.png'
-import IMG4 from '../../assets/card.png'
-import IMG5 from '../../assets/card.png'
-import IMG6 from '../../assets/card.png'
 
 const data = [
   {
@@ -68,8 +63,8 @@ const Projects = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                  <a href={github} className = 'btn' target='_blank'>Github</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>Live
+                  <a href={github} className = 'btn' target='_blank' rel="noreferrer">Github</a>
+                  <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live
                     Demo</a>
                 </div>
               </article>

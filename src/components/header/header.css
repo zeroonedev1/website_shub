@@ -45,7 +45,6 @@ header {
     overflow: hidden;
     display: flex;
     justify-content: center;
-    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
     position: absolute;
     left: 37%;
 }
@@ -60,7 +59,7 @@ header {
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
-    transform :rotate(90deg);
+    transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
 }
@@ -81,5 +80,16 @@ header {
     .header_socials,
     .scroll__down {
         display: none;
+    }
+
+    /* To Center the whole website on mobile devices */
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .me {
+        left: 2%
     }
 }
