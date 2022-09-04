@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/pic.png'
+import ME from '../../assets/3_1.png'
 import {TbMilitaryAward} from 'react-icons/tb'
 import {VscOrganization} from 'react-icons/vsc'
 import {RiCodeBoxFill} from 'react-icons/ri'
@@ -23,24 +23,31 @@ const About = () => {
             <article className='about__card'>
               <TbMilitaryAward className="about__icon"/>
               <h2>Experience</h2>
-              <small>5 years of Experience </small>
+             <p> <small>4 years of Front End Development.</small></p>
+              <p><small>365+ days of Game Development.</small></p>
             </article>
 
             <article className='about__card'>
               <VscOrganization className="about__icon"/>
               <h2>Companies</h2>
-              <small>4 Companies</small>
+              <p><small><a href="https://zenithsoft.com/">Zenith Software</a></small></p>
+              <p><small><a href="https://eka1.com/">Eka</a></small></p>
+              <p><small><a href="https://moonfroglabs.com/">Moonfrog Labs</a></small></p>
+              <p><small><a href="https://www.slksoftware.com/">SLK Software</a></small></p>
             </article>
 
             <article className='about__card'>
               <RiCodeBoxFill className="about__icon"/>
-              <h2>Projects</h2>
-              <small>Front End Web & Game DEvelopment Projects</small>
+              <h2>Domains</h2>
+              <p><small>BFSI</small></p>
+              <p><small>Gaming</small></p>
+              <p><small>Commodities-Trading</small></p>
+              <p><small>Manufacturing</small></p>
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste reiciendis animi vel corrupti doloribus porro architecto eos, vitae debitis aspernatur atque sit dolores ipsa autem. Eos minus quia rem itaque.</p>
-          <a href="#contact" className='btn btn-primary'>Lets Talk</a>
+          <p>I have reached to a 5th year of my Front-end web development & Game development odyssey, Along the way I have joined forces with 5+ clients to fight their tech-wars & now, I feel I want more!</p>
+          <a href="#contact" className='btn btn-primary'>Lets Talk  </a>
         </div>
       </div> 
     </section>

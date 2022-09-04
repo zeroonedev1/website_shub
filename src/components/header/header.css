@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 4rem;
     /* overflow: hidden; */
 }
 
@@ -11,7 +11,7 @@ header {
 }
 
 .cta {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -39,8 +39,8 @@ header {
 .me {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
-    height: 30rem;
-    margin-top: 4rem;
+    height: 26rem;
+    margin-top: 2rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     display: flex;
@@ -50,7 +50,7 @@ header {
 }
 
 .picture {
-    right: 15%;
+    top: 4%;
     position: absolute
 }
 
