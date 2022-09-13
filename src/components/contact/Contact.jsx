@@ -40,9 +40,9 @@ const Contact = () => {
           </article>
         </div >
         < form ref={form} onSubmit={sendEmail}>
-          <input type="text" name='name' placeholder='Your Full Name' required />
-          <input type="email" name='email' placeholder='your email' required />
-          <textarea name='message' placeholder='your message' required />
+          <input type="text" name='name' placeholder='full name' required />
+          <input type="email" name='email' placeholder='email' required />
+          <textarea name='message' placeholder='message' required />
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form >
       </div >
