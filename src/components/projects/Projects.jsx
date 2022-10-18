@@ -6,15 +6,12 @@ import IMG3 from '../../assets/p7.png'
 import IMG4 from '../../assets/p8.png'
 import IMG5 from '../../assets/g2.png'
 
-let isdemo = false
 const data = [
   {
     id: 1,
     image: IMG3,
     title: 'shadePlace - A Place where people can share underated places to explore in a city.',
     github: "https://github.com/zeroonedev1/shadePlace",
-    demo: 'https://github.com',
-    isDemoAvailable: false,
     linkText:'Github'
   },
   {
@@ -22,8 +19,6 @@ const data = [
     image: IMG2,
     title: 'Stacct - Project Management for C executives suite.',
     github: "https://github.com/zeroonedev1/PMA_FE",
-    demo: 'https://github.com',
-    isDemoAvailable: false,
     linkText:'Github'
   }
   ,
@@ -32,8 +27,6 @@ const data = [
     image: IMG1,
     title: 'Employee Speech Support BOT - inprogress',
     github: "https://github.com/zeroonedev1/voice-recognization-ai",
-    demo: 'https://github.com',
-    isDemoAvailable : true,
     linkText:'Github'
 
   },
@@ -42,8 +35,6 @@ const data = [
     image: IMG4,
     title: 'Mad Mechs -Mad Mechs is a twin-stick top down action shooter in the theme of “Out of Control” and inspired by games like Alien Shooter and Alien Swarm. ',
     github: "https://xsoodx.github.io/projects/madMechs",
-    demo: 'https://xsoodx.github.io/projects/madMechs',
-    isDemoAvailable : true,
     linkText:'Demo'
   },
   {
@@ -51,8 +42,6 @@ const data = [
     image: IMG5,
     title: 'RoBro - You are an old dismantled robot stashed away in a secret lab. You must solve puzzles and reassemble your self piece by piece and find a way out of the lab. Each part of yourself you recover will enable a new functionality. ',
     github: "https://xsoodx.github.io/projects/roBro",
-    demo: 'https://xsoodx.github.io/projects/madMechs',
-    isDemoAvailable : true,
     linkText:'Demo'
   }
 ]
@@ -65,8 +54,7 @@ const Projects = () => {
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
         {
-          data.map(({ id, image, title, github, demo,linkText }) => {
-            {{console.log(data)}}
+          data.map(({ id, image, title, github,linkText }) => {
             return (
               <article key={id} className='portfolio__item'>
                 <div className="portfolio__item-image">
