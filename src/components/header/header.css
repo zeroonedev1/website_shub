@@ -77,10 +77,15 @@ header {
         height: 100vh;
     }
 
-    .header_socials,
+    .header_socials{
+        right: 100%;
+    }
+
     .scroll__down {
         display: none;
     }
+
+
 
     /* To Center the whole website on mobile devices */
     html,

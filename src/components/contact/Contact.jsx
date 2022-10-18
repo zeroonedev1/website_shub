@@ -12,8 +12,10 @@ const Contact = () => {
   
   const sendEmail = (e) => {
     e.preventDefault();
+    // from emailjs https://dashboard.emailjs.com/sign-in
     emailjs.sendForm('service_ndeedd6', 'template_2rq7aso', form.current, 'gkwppUQEYV7ynhRQJ')
     e.target.reset()
+    alert("Thanks for reaching out, I look forward to talk to you.")
   };
 
   return (

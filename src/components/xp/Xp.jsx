@@ -70,21 +70,21 @@ const Xp = () => {
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Node.js</h4>
-                <small className='text-light'>Node.Js</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience_details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Mongodb</h4>
-                <small className='text-light'>Exp</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience_details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>Sql</h4>
-                <small className='text-light'>Exp</small>
+                <small className='text-light'>Experienced</small>
               </div>
             </article>
           </div>
