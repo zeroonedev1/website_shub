@@ -16,8 +16,8 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+    /* transform: rotate(10deg); */
+    /* transition: var(--transition); */
 }
 
 .about__me-image:hover {
@@ -34,12 +34,17 @@
     gap: 1.5rem;
 }
 
+h2 {
+    margin-bottom: 12px;
+}
+
 .about__card {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1rem 0.5rem;
     text-align: center;
+    line-height: 30px;
 }
 
 .about__card :hover {
@@ -63,12 +68,10 @@
     cursor: default;
 }
 
-.about__content p {
-    margin: 2rem 0 2.6ren;
+.about_intro {
+    margin: 1rem 0rem;
     color: var(--color-light);
 }
-
-
 
 /*…………………… MEDIA QUERIES (MEDIUM DEVICES) ¨¨¨¨¨¨¨¨¨ */
 @media screen and (max-width: 1024px) {
