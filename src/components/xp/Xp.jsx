@@ -31,7 +31,7 @@ const Xp = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>Angular</h4>
+                <h4>React</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -39,7 +39,7 @@ const Xp = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>React</h4>
+                <h4>Angular</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -55,7 +55,7 @@ const Xp = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>CSS3</h4>
+                <h4>Node.js</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -69,7 +69,7 @@ const Xp = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
-                <h4>Node.js</h4>
+                <h4>CSS3</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
