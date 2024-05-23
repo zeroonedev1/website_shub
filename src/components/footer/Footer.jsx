@@ -12,7 +12,7 @@ const Footer = () => {
         <li><a href="#">Contact</a></li>
       </ul>
       <div className="footer__note">
-      <small>&copy; use everything form here, I really dont mind.</small>
+        <small>&copy; shubhamdholu</small>
       </div>
     </footer>
   )

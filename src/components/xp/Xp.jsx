@@ -87,6 +87,27 @@ const Xp = () => {
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>React-Native</h4>
+                <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Flutter</h4>
+                <small className='text-light'>Intermediate</small>
+              </div>
+            </article>
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Java</h4>
+                <small className='text-light'>Novice</small>
+              </div>
+            </article>
           </div>
         </div>
 

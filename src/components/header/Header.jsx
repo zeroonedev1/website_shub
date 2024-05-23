@@ -11,12 +11,11 @@ const Header = () => {
         <h2>Hey I'm</h2>
         <h2>... .... ..- -... .... .- -- </h2>
         <h1>Shubham M Dholu</h1>
-        {/* <h5 className="text-light">Front_End & Game Developer</h5> */}
-        <h5 className="">frontEnd / Game Developer</h5>
+        <h5 className="">Web/Game Developer</h5>
         <Cta />
-        <HeaderSoials/>
+        <HeaderSoials />
         <div className="me">
-          <img className='picture' src={pic} alt="profile"/>
+          <img className='picture' src={pic} alt="profile" />
         </div>
         <a href="#contact" className='scroll__down'>Scroll Down</a>
       </div>
