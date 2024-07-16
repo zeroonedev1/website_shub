@@ -36,8 +36,8 @@ const Contact = () => {
           </article>
           <article className="contact__option">
             <ImWhatsapp />
-            <h5>What up?</h5>
-            <a href="https://api.whatsapp.com/send?phone=15197026801&text='Hi" target='_blank' rel="noreferrer">Whatsapp Me</a>
+            <h5>Whatsapp</h5>
+            <a href="https://api.whatsapp.com/send?phone=15197026801&text='Hi" target='_blank' rel="noreferrer">DM Me</a>
           </article>
         </div >
         < form ref={form} onSubmit={sendEmail}>
