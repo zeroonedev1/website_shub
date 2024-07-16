@@ -9,20 +9,19 @@ import emailjs from 'emailjs-com'
 
 const Contact = () => {
   const form = useRef();
-  
+
   const sendEmail = (e) => {
     e.preventDefault();
     // from emailjs https://dashboard.emailjs.com/sign-in
-    emailjs.sendForm('service_ndeedd6', 'template_2rq7aso', form.current, 'gkwppUQEYV7ynhRQJ')
-    e.target.reset()
-    alert("Thanks for reaching out, I look forward to talk to you.")
+    emailjs.sendForm('service_ndeedd6', 'template_2rq7aso', form.current, 'gkwppUQEYV7ynhRQJ');
+    e.target.reset();
+    alert("Thanks for reaching out, I look forward to talk to you.");
   };
 
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
-
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">

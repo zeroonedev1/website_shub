@@ -26,14 +26,14 @@ const About = () => {
             <article className='about__card'>
               <TbMilitaryAward className="about__icon" />
               <h2>Experience</h2>
-              <p><strong>7+</strong><br></br> years of Web/App Development.</p>
-              <p><strong>2+</strong><br></br> years of Game Development.</p>
+              <p><strong>8+</strong><br></br> years of Web/App/Game Development.</p>
             </article>
 
             <article className='about__card'>
               <VscOrganization className="about__icon" />
               <h2>Companies</h2>
               <div className='companies_parent'>
+                <p><a href="https://www.tensorhalo.com/">Tensor Halo</a></p>
                 <p><a href="https://ottpay.com/">OTT Financial</a></p>
                 <p><a href="https://tamwood.com/">Tamwood Careers</a></p>
                 <p><a href="https://zenithsoft.com/">Zenith Software</a></p>
@@ -49,15 +49,17 @@ const About = () => {
             <article className='about__card'>
               <RiCodeBoxFill className="about__icon" />
               <h2>Domains</h2>
+              <p>Artificial Intelligence</p>
               <p>Financial/Payments/Banking</p>
               <p>Educational</p>
               <p>Commodities/Trading</p>
-              <p>Gaming</p>
               <p>Manufacturing</p>
+              <p>Gaming</p>
             </article>
           </div>
 
-          <p className='about_intro'>I have reached to a 8th year of my Web/App & Game development odyssey,
+          <p className='about_intro'>
+            I have reached to a 8th year of my Web,App & Game development odyssey,
             Along the way I have joined forces with 6+ clients to fight their tech-wars & now, I feel I want more!</p>
           <a href="#contact" className='btn btn-primary'>Lets Talk</a>
         </div>
